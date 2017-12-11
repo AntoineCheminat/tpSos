@@ -1,0 +1,66 @@
+
+@font-face{
+    font-family: "open sans";
+    src: url("../fonts/OpenSans.ttf");
+}
+@font-face{
+    font-family: "adventure";
+    src: url("../fonts/Adventure.otf");
+}
+
+body{
+    color: #080004;
+    font-family: "open sans";
+    height: 100%;
+    font-weight: bold;
+}
+
+.main-page{
+    background-image: url("../img/running.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-page{
+}
+.titre-principale{
+    color: #FF3300  ;
+    font-size: 4em;
+    padding: 20px 15px;
+    font-family:"adventure";
+}
+.presentation{
+    padding: 20px 15px;
+    margin: 20px 15px;
+}
+.text-presentation{
+    text-align: center;
+    color:  #FF3300;
+}
+.bas-page{
+    background-color: #282828;
+}
+.nav-bas-page{
+    padding: 25px 15px;
+}
+.lien-bas-page{
+    border: 1px solid #337AB7;
+}
+.nav-bas-page>ul>li {
+    margin-right: 30px;
+}
+.nav-bas-page>ul>li>a{
+    border-radius: 0;
+}
+.nav-bas-page>ul>li>a:hover{
+    background-color: #337AB7;
+    color: #FFF;
+}
+.form{
+    color: #FFF;
+    margin-bottom: 50px;
+}
+.form-connexion, .form-inscription{
+    background-color: rgba(32,32,32,0.3);
+    color: #FFF;
+    padding: 50px 20px;   
+}

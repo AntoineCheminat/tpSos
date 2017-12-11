@@ -1,0 +1,61 @@
+@font-face{
+    font-family: "open sans";
+    src: url("../fonts/OpenSans.ttf");
+}
+@font-face{
+    font-family: "adventure";
+    src: url("../fonts/Adventure.otf");
+}
+
+
+body{
+    font-family: "open sans";
+    height: 100%;
+    font-weight: bold;
+}
+
+
+.bas-page{
+    background-color: #282828;
+}
+.nav-bas-page{
+    padding: 25px 15px;
+}
+.lien-bas-page{
+    border: 1px solid #337AB7;
+}
+.nav-bas-page>ul>li {
+    margin-right: 30px;
+}
+.nav-bas-page>ul>li>a{
+    border-radius: 0;
+}
+.nav-bas-page>ul>li>a:hover{
+    background-color: #337AB7;
+    color: #FFF;
+}
+.titre-principale{
+    color: #FF3300  ;
+    font-size: 4em;
+    font-family:"adventure";
+}
+
+.head-page{
+    background-color: #282828;
+    padding: 50px 20px;
+}
+.nav-section{
+}
+.nav-haut{
+    border: 1px solid #337AB7;
+}
+.nav-rigth>ul>li>a, .nav-left>ul>li>a{
+    border-radius: 0;
+}
+.nav-rigth>ul>li{
+    margin-right: 30px;
+}
+.id{
+    color: #FFF;
+    padding: 20px 15px;
+}
